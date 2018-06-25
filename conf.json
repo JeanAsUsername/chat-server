@@ -1,0 +1,13 @@
+{
+    "mongodb": {
+        "user": "jean",
+        "password": "slime159753456852",
+        "database": "local-chat"
+    },
+    "auth": {
+        "secret": "uehduheikldjlneoj"
+    },
+    "app": {
+        "cookieSecret": "ndsikdjeihdey8shbcdjbd"
+    }
+}
