@@ -7,7 +7,7 @@ const app = require('./app'),
 
 http
     .listen(port, () => {
-        console.log(`Servidor corriendo en 192.168.1.104:${port}`)
+        console.log(`Servidor corriendo en el puerto ${port}`)
     })
 
 module.exports = http

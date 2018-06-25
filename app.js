@@ -23,11 +23,11 @@ app
         httpOnly: true
     }))
     .use(cors({
-        origin: ['http://localhost:8080', 'http://192.168.1.104:8080'],
+        origin: ['https://agile-coast-93682.herokuapp.com', 'https://agile-coast-93682.herokuapp.com'],
         credentials: true
     }))
     .use('/', normalRoutes)
     .use('/process', csurf(), processRoutes)
-
+    
 module.exports = app
     
