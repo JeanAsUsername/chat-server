@@ -23,7 +23,7 @@ app
         httpOnly: true
     }))
     .use(cors({
-        origin: 'https://stark-depths-62936.herokuapp.com/',
+        origin: 'https://stark-depths-62936.herokuapp.com',
         credentials: true
     }))
     .use('/', normalRoutes)
