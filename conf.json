@@ -1,7 +1,7 @@
 {
     "mongodb": {
         "user": "jean",
-        "password": "slime159753456852",
+        "password": "",
         "database": "local-chat"
     },
     "auth": {
